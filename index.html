@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Crash Game Pro</title> <link rel="stylesheet" href="style.css">
-    </head>
+    <title>Crash Game Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-    <div id="authContainer" class="auth-wrapper"> <div class="auth-box">
+    <div id="authContainer" class="auth-wrapper">
+        <div class="auth-box">
             <form id="loginForm">
                 <h2>Login</h2>
                 <div id="loginError" class="error-message"></div>
@@ -44,7 +46,8 @@
         </div>
     </div>
 
-    <div class="mobile-wrapper hidden" id="gameWrapper"> <div class="game-container">
+    <div class="mobile-wrapper hidden" id="gameWrapper">
+        <div class="game-container">
 
             <div class="top-bar">
                 <div class="top-icons">
@@ -57,7 +60,8 @@
 
             <div class="secondary-bar">
                  <div class="player-count" title="Players in round">
-                     👤 <span id="playerCount">33</span> </div>
+                     👤 <span id="playerCount">--</span>
+                 </div>
             </div>
 
             <div id="mainHistoryDisplay" class="main-history-display">
@@ -126,7 +130,8 @@
                            </div>
                            <div id="upiDetails" class="payment-details hidden">
                                <p>Please pay using the UPI ID below:</p>
-                               <strong class="payment-info">yourcompany.pay@bankupi</strong> <p class="small-note">After payment, enter the Transaction ID below.</p>
+                               <strong class="payment-info">yourcompany.pay@bankupi</strong>
+                               <p class="small-note">After payment, enter the Transaction ID below.</p>
                            </div>
                            <div id="qrCodeDetails" class="payment-details hidden">
                                <p>Scan the QR Code using your UPI app:</p>
@@ -174,7 +179,8 @@
                       <span class="bet-amount-display">
                           <span class="currency">₹</span>
                           <input type="number" id="betAmount" value="1" min="1" step="1">
-                          <span id="potentialWinDisplay" class="potential-win hidden"></span> </span>
+                          <span id="potentialWinDisplay" class="potential-win hidden"></span>
+                      </span>
                       <button id="increaseBet" class="bet-adjust-btn">+</button>
                   </div>
                   <div class="quick-bet">
